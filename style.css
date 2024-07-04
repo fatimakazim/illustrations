@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0 8%;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+.art-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.art-item {
+    text-align: center;
+    flex: 1 1 calc(50% - 40px); /* Increased size to take up more space */
+    margin: 20px;
+}
+
+h5 {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.portfolio-image {
+    width: 60%; /* Take the full width of the container */
+    max-width: 1200px; /* Increase max width */
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
