@@ -6,19 +6,23 @@
 }
 
 body {
-    background-color: #f4f4f4;
+    background-image: url('path.jpg'); /* Replace with the actual path to your image */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .container {
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('background.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     padding: 0 8%;
 }
+
 
 .navbar {
     height: 80px;
