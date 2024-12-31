@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('path.jpg'); /* Replace with the actual path to your image */
+    background-image: url('paths.jpg'); /* Replace with the actual path to your image */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
